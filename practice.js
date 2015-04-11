@@ -111,22 +111,27 @@ for (key in album) {
   console.log(key);
 };
 
-
-
 //NEXT PROBLEM
-
-
-
 
 //Create an object called states that has 5 US states as properties with the values being their population (doesn't have to be accurate).
 
   //Code Here
+  var states = {
+    California: 400000,
+    Utah: 500000,
+    Maryland: 50000,
+    Idaho: 23000,
+    Nevada: 7000
+  }
 
 //Now, loop through your states object and if the states population is greater than 30K, alert that state.
 
   //Code Here
-
-
+for (key in states) {
+  if (states[key] > 30000) {
+    alert(key);
+  }
+}
 
 
 //NEXT PROBLEM
